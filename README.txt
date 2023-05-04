@@ -1,2 +1,0 @@
-This project was to create a linear regression model that would take past data on NBA matches to predict the points of future games.
-The data was sourced from Kaggle and url can be found here https://www.kaggle.com/datasets/wyattowalsh/basketball?resource=download
