@@ -17,11 +17,11 @@ df= pd.read_csv("C:\\Users\\Abigail Luwawa\\OneDrive\\Desktop\\CODE\\NBA\\game.c
 
 # Checking for missing values
 print("#no of rows with missing values: " , df.isnull().sum())
-df.dropna(inplace=True) #uncomment if necessary and run line 9 again to check
+df.dropna(inplace=True) #uncomment if necessary and run again to check
 
 # Checking for duplicates
 print("dupes: ", df.duplicated().sum())
-#df.drop_duplicates(inplace=True) #uncomment if necessary and run line 13 again to check
+#df.drop_duplicates(inplace=True) #uncomment if necessary and run again to check
 
 # Checking for outliers
 print(df.describe())

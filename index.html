@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        </div>
+            <h1 class="title ">Hello, my name is Abigail and welcome to my NBA point predictor. </h1>
+        </header>
+        <br>
+        <br>
+        <Section>
+            <div class= "maintext" >
+                This model uses home game data to estimate how many points an NBA team would score, by cleaning and visualizing data, 
+                creating test and train elements, scaling data, fitting a model using linear regression, and evaluating the model using the R^2 score.
+                />
+            </div>
+            <p>Please enter the values for each attribute:</p>
+             <!-- Inputs for our ML model -->
+              <form action="{{ url_for('predict')}}"method="post">
+                <input type="text" name="fgm_home" placeholder="Field goals made" required="required" />
+                <input type="text" name="fga_home" placeholder="Field goals attempted" required="required" />
+                <input type="text" name="ftm_home" placeholder="Free throws made" required="required" />
+                <input type="text" name="fta_home" placeholder="Free throws attempted" required="required" />
+                <input type="text" name="oreb_home" placeholder="Offensive rebounds" required="required" />
+                <input type="text" name="dreb_home" placeholder="Defensive rebounds" required="required" />
+                <input type="text" name="ast_home" placeholder="Assists" required="required" />
+                <input type="text" name="stl_home" placeholder="Steals" required="required" />
+                <input type="text" name="blk_home" placeholder="Block" required="required" />
+                <input type="text" name="tov_home" placeholder="Turnover" required="required" />
+                <button type="submit">Predict points scored!</button>
+              </form>
+            <br>
+        </div>
+        <footer>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+        </footer>
+        <p class= "endnote" >
+        Abigail Luwawa
+        </p>
+        </Section>
+
+    </body>
+    
+</html>
