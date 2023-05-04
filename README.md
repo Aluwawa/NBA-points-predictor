@@ -1,2 +1,2 @@
-# Clock
-This is simple clock application using Java. The clock displays the current time in 12-hour format, the current day of the week, and the current date in the format "Month day, year". 
+# NBA Point predictor
+This code uses home game data to estimate how many points an NBA team would score by creating a model using linear regression, and evaluating the model using the R^2 score.
